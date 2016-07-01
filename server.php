@@ -20,6 +20,7 @@ private $cnt = "aaaaa";
 var_dump($cnt);
   	public function __construct() {
         $this->clients = new \SplObjectStorage;
+        $this->clients->attach($cnt);
     }
 
     public function onOpen(ConnectionInterface $conn)
