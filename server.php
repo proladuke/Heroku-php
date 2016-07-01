@@ -61,7 +61,7 @@ private $cnt = "aaaaa";
  * Do NOT remove this code.
  * This code is needed for `codecheck` command to see whether server is running or not
  */
-$docroot = __DIR__ . '/../public';
+$docroot = __DIR__ . './';
 $deamon = popen("php -S 0.0.0.0:9000 --docroot {$docroot}", "r");
 
 $base = new new WsServer(new Chat);
