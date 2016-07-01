@@ -20,7 +20,5 @@
         "bin/heroku-php-apache2",
         "bin/heroku-php-nginx"
     ]
-    "require":{
-        "cboden/Ratchet":"0.3.*"
-    }
+  
 }
