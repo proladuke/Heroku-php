@@ -65,5 +65,5 @@ $docroot = __DIR__ . '/../public';
 $deamon = popen("php -S 0.0.0.0:9000 --docroot {$docroot}", "r");
 
 $base = new HttpServer(new WsServer(new Chat));
-$server = IoServer::factory($base, 9000);
+$server = IoServer::factory($base,$_SERVER['SERVER_PORT']);
 $server->run();
