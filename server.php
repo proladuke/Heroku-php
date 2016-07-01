@@ -17,7 +17,6 @@ class Chat implements MessageComponentInterface
 protected $clients;
 private $arr;
 private $cnt = "aaaaa";
-var_dump($cnt);
   	public function __construct() {
         $this->clients = new \SplObjectStorage;
         $this->clients->attach($cnt);
