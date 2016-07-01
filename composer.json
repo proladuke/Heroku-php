@@ -1,6 +1,6 @@
 {
   "require": {
     "php": "5.5.12"
-    "ext-memcached": "*",
+    "cboden/ratchet": "0.3.*",
   }
 }
