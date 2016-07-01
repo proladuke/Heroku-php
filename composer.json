@@ -1,5 +1,5 @@
 {
-    "autoloat":{
+    "autoload":{
         "psr-0":{
             "MyApp":"src"
         }
