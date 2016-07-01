@@ -1,6 +1,6 @@
 ﻿'use strict';
 
-var ws = new WebSocket('ws://vast-badlands-42770.herokuapp.com/server.php');
+var ws = new WebSocket('ws://fathomless-sands-22067.herokuapp.com/');
 
 $(function () {
   $('form').submit(function(){
